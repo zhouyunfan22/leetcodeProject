@@ -39,9 +39,14 @@ public class main {
 //        int[]a={0,0,0,1,0,0,0,1,0,0};
 //        canPlaceFlowers c=new canPlaceFlowers();
 //        System.out.print(c.canPlaceFlowers(a,4));
+//
+//        defangIPaddr d=new defangIPaddr();
+//        System.out.print(d.defangIPaddr("1.1.1.1"));
+        int []a={1,3};
+        findPoisonedDuration f=new findPoisonedDuration();
+        int b=f.findPoisonedDuration(a,2);
+        System.out.print(b);
 
-        defangIPaddr d=new defangIPaddr();
-        System.out.print(d.defangIPaddr("1.1.1.1"));
 
 
 
