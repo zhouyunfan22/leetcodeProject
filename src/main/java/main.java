@@ -42,15 +42,20 @@ public class main {
 //
 //        defangIPaddr d=new defangIPaddr();
 //        System.out.print(d.defangIPaddr("1.1.1.1"));
-        int []a={1,3};
-        findPoisonedDuration f=new findPoisonedDuration();
-        int b=f.findPoisonedDuration(a,2);
+//        int []a={1,3};
+//        findPoisonedDuration f=new findPoisonedDuration();
+//        int b=f.findPoisonedDuration(a,2);
+//        System.out.print(b);
+        int []a={0,1,3};
+        missingNumber f=new missingNumber();
+        int b=f.missingNumber(a);
         System.out.print(b);
 
 
 
 
-}
+
+    }
 
 }
 
