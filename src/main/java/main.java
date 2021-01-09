@@ -46,10 +46,14 @@ public class main {
 //        findPoisonedDuration f=new findPoisonedDuration();
 //        int b=f.findPoisonedDuration(a,2);
 //        System.out.print(b);
-        int []a={0,1,3};
-        missingNumber f=new missingNumber();
-        int b=f.missingNumber(a);
-        System.out.print(b);
+//        int []a={0,1,3};
+//        missingNumber f=new missingNumber();
+//        int b=f.missingNumber(a);
+//        System.out.print(b);
+        int []a={1,2,2,4};
+        findErrorNums f=new findErrorNums();
+        int []b=f.findErrorNums(a);
+        System.out.print(b[0]+" "+b[1]);
 
 
 
