@@ -51,10 +51,9 @@ public class main {
 //        int b=f.missingNumber(a);
 //        System.out.print(b);
         int []a={1,2,2,4};
-        findErrorNums f=new findErrorNums();
-        int []b=f.findErrorNums(a);
-        System.out.print(b[0]+" "+b[1]);
-
+        compareVersion c=new compareVersion();
+        int b=(c.compareVersion("0.0.1","1.0.0"));
+        System.out.print(b);
 
 
 
