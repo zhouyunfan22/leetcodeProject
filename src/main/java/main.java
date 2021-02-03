@@ -50,10 +50,16 @@ public class main {
 //        missingNumber f=new missingNumber();
 //        int b=f.missingNumber(a);
 //        System.out.print(b);
-        int []a={1,2,2,4};
-        compareVersion c=new compareVersion();
-        int b=(c.compareVersion("0.0.1","1.0.0"));
-        System.out.print(b);
+//        int []a={1,2,2,4};
+//        compareVersion c=new compareVersion();
+//        int b=(c.compareVersion("0.0.1","1.0.0"));
+//        System.out.print(b);
+        int []a={1,3,5,6};
+        int b=5;
+        searchInsert s=new searchInsert();
+        int r=s.searchInsert(a,b);
+        System.out.print(r);
+
 
 
 
